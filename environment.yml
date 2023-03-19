@@ -1,0 +1,16 @@
+name: simpeg-geotech
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - mkl
+  - dask
+  pip:
+    - git+https://github.com/simpeg/simpeg.git@tiled_fdem_nsem
