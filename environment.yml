@@ -12,5 +12,4 @@ dependencies:
   - jupyterlab
   - mkl
   - dask
-  pip:
-    - git+https://github.com/simpeg/simpeg.git@tiled_fdem_nsem
+  - SimPEG
